@@ -1,0 +1,53 @@
+
+
+body{font-family: 'Times New Roman', Times, serif;
+    /* background-color: black */
+    background-image: url("../visuals/fly.jpg");  
+    background-position: center;
+    background-size: cover;
+}
+
+.navigationbar {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+    
+
+}
+ul#liste {
+
+    list-style: none;
+}
+
+ul#liste li {
+
+    display: inline;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+justify-content: center;
+margin-top: 10%;
+}
+
+.arbejde {
+    background-color: white;
+    width: 35%;
+    margin-right: 20px;
+    padding: 30px;
+    border-radius: 10%;
+    opacity: 0.8;
+}
+
+.skole {
+    background-color: white;
+    width: 35%;
+    margin-left: 20px;
+    padding: 30px;
+    border-radius: 10%;
+    opacity: 0.8;
+
+}

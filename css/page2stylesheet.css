@@ -1,0 +1,83 @@
+
+body{font-family: 'Times New Roman', Times, serif;
+    /* background-color: black */
+    background-image: url("../visuals/fly.jpg");  
+    background-position: center;
+    background-size: cover;
+}
+
+.navigationbar {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+    
+
+}
+ul#liste {
+
+    list-style: none;
+}
+
+ul#liste li {
+
+    display: inline;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.interesser {
+    background-color: #87ceeb;
+    width: 35%;
+    height: 300px;
+    margin-right: 20px;
+    padding: 30px;
+    border-radius: 10%;
+    opacity: 0.8;
+
+}
+
+.talenter {
+    background-color: #87ceeb;
+    width: 35%;
+    height: 300px;
+    margin-left: 20px;
+    padding: 30px;
+    border-radius: 10%;
+    opacity: 0.8;
+}
+
+.blog {
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 10%;
+    opacity: 0.8;
+}
+.photos {
+    display: flex;
+align-items: center;
+justify-content: center;
+background-color: #87ceeb;
+opacity: 0.8;
+border-radius: 10%;
+padding: 10px;
+flex-direction: row;
+}
+
+
+
+.photos img {
+object-fit: cover;  
+height: 200px;
+width: 200px;  
+margin-left: 10px;
+}
