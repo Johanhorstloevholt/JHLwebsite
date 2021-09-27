@@ -4,6 +4,7 @@ body {
   background-image: url("../visuals/fly.jpg");
   background-position: center;
   background-size: cover;
+  line-height: 150%;
 }
 
 .navigationbar {
